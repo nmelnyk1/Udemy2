@@ -2,7 +2,14 @@
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+		ITelephone timPhone;
+		timPhone = new DeskPhone (5455);
+		
+		timPhone.answer();
+		timPhone.callPhone(45345345);
+		timPhone.powerOn();
+		
 
 	}
 
